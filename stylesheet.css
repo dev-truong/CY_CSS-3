@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.wrap-all {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 63px;
+    padding-right: 112px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-happenstance {
+    height: 132px;
+}
+.image-happenstance img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.button-header {
+    display: flex;
+    gap: 76px;
+    font-family: "Unica One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.icon-header {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.circle {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1301px;
+    height: 182.75px;
+}
+.background-sandals {
+    position: absolute;
+    width: 1107px;
+    height: 941px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.background-sandals img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text-selectsize {
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.number-size {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.number-size-detail {
+    border: 1px solid #131212;
+    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 55px;
+}
+.text-selectcolor {
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.select-color {
+    display: flex;
+    gap: 20px;
+}
+.color-detail {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    margin-bottom: 154px;
+}
+.color-detail-1 {
+    background: #B6A179;
+}
+.color-detail-2 {
+    background: #272425;
+}
+.color-detail-3 {
+    background: #6389CB;
+}
+.color-detail-4 {
+    background: #F2C758;
+}
+.text-sandal {
+    font-weight: 400;
+    font-size: 20px;
+    color: #131212;
+    margin-bottom: 13px;
+}
+.sandals-name {
+    font-weight: 400;
+    font-size: 72px;
+    color: #131212;
+    margin-bottom: 24px;
+}
+.introduce-sandals {
+    font-weight: 500;
+    font-size: 30px;
+    color: #888888;
+    margin-bottom: 60px;
+}
+
+.content-right{
+    flex-basis: 488px;
+    margin-top: 82px;
+}
+.content-left {
+    margin-top: 82px;
+}
+.scroll-down {
+    rotate: 180deg;
+    font-family: "Unica One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #131212;
+    writing-mode: vertical-rl;
+}
+.icon-social {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 24px;
+}
+.content-last {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    margin-top: 68px;
+    align-items: center;
+}
+.prep-next {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.play-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-card {
+    font-family: "Unica One", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #131212;
+}
