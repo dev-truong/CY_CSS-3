@@ -39,6 +39,24 @@ header {
     justify-content: center;
     gap: 36px;
 }
+.cart-count:nth-child(2) {
+    position: relative;
+}
+.cart-count:nth-child(2)::after {
+    position: absolute;
+    content: attr(data-count);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    top: -10px;
+    right: -8px;
+    color: #fff;
+    background-color: #ff0000;
+}
 .circle {
     position: absolute;
     top: 480px;
